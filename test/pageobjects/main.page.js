@@ -6,3 +6,5 @@ class MainPage {
         await expect(message).toBeExisting()
     }
 }
+
+module.exports = new MainPage()

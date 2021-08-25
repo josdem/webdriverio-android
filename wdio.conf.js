@@ -4,6 +4,7 @@ exports.config = {
     // Runner Configuration
     // ====================
     //
+    path: '/wd/hub',
     port: 4723,
     //
     // ==================
