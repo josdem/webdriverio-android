@@ -53,8 +53,8 @@ exports.config = {
     //
     capabilities: [{
 
-        "deviceName": "Pixel_3_10.0",
-        "platformVersion": "10",
+        "deviceName": "Pixel_5_30",
+        "platformVersion": "11",
         "platformName": "Android",
         "app": "/home/josdem/Programs/launcher-debug.apk"
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
