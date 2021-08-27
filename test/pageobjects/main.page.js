@@ -1,5 +1,5 @@
 class MainPage {
-    get messageLabel() { return $("~message") }
+    get messageLabel() { return $("~messageTextView") }
 
     async readMessage(){
         const message = await this.messageLabel
