@@ -11,7 +11,7 @@ class MainPage {
         const button = await this.changeButton
         expect(button).toBeExisting()
         await button.click()
-
+        return await this.messageLabel.getText()
     }
 }
 

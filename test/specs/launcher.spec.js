@@ -4,6 +4,7 @@ describe('Should validate launcher', () => {
 
     it('validate message changing screen', async() => {
         await MainPage.readMessage()
-        await MainPage.changeMessage()
+        const response = await MainPage.changeMessage()
+        console.log("response: ", response)
     })
 })
