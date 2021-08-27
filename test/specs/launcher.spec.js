@@ -1,8 +1,9 @@
 const MainPage = require('../pageobjects/main.page')
 
-describe('Should validate launcher content', () => {
+describe('Should validate launcher', () => {
 
-    it('validate launcher screen', async() => {
+    it('validate message changing screen', async() => {
         await MainPage.readMessage()
+        await MainPage.changeMessage()
     })
 })
