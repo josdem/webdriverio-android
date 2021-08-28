@@ -22,6 +22,12 @@ npm install
 npx wdio run wdio.conf.js
 ```
 
+And run Appium server:
+
+```bash
+appium
+```
+
 #### Read this as reference
 
 https://webdriver.io/docs/gettingstarted
