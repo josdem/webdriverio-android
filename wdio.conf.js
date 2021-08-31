@@ -56,7 +56,7 @@ exports.config = {
         "deviceName": "Pixel_5_30",
         "platformVersion": "11",
         "platformName": "Android",
-        "app": "/home/josdem/Programs/launcher-debug.apk"
+        "app": "/home/josdem/Applications/app-debug.apk"
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
