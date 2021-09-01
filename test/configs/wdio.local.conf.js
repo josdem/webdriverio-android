@@ -1,0 +1,12 @@
+const {config} = require('../..wdio.conf')
+
+config.capabilities = [
+    {
+        deviceName: "Pixel_5_30",
+        platformVersion: "11",
+        platformName: "Android",
+        app: "/home/josdem/Applications/app-debug.apk",
+    },
+]
+
+exports.config = config
