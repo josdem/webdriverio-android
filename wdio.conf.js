@@ -5,7 +5,9 @@ exports.config = {
   // ====================
   //
   path: "/wd/hub",
-  port: 4723,
+  //port: 4723,
+  user: process.env.SAUCE_USERNAME,
+  key: process.env.SAUCE_ACCESS_KEY,
   //
   // ==================
   // Specify Test Files
@@ -51,10 +53,10 @@ exports.config = {
   //
   capabilities: [
     {
-      deviceName: "Pixel_5_30",
-      platformVersion: "11",
+      deviceName: "Google Pixel 3 GoogleAPI Emulator",
+      platformVersion: "10.0",
       platformName: "Android",
-      app: "/home/josdem/Applications/app-debug.apk",
+      app: "https://github.com/josdem/android-launcher/releases/download/v1.0/app-debug.apk",
       // maxInstances can get overwritten per capability. So if you have an in-house Selenium
       // grid with only 5 firefox instances available you can make sure that not more than
       // 5 instances get started at a time.
@@ -99,7 +101,7 @@ exports.config = {
   // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
   // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
   // gets prepended directly.
-  baseUrl: "http://localhost",
+  baseUrl: process.env.SAUCE_URL,
   //
   // Default timeout for all waitFor* commands.
   waitforTimeout: 10000,
@@ -115,7 +117,7 @@ exports.config = {
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-  services: ["appium"],
+  services: ["sauce"],
 
   // Framework you want to run your specs with.
   // The following are supported: Mocha, Jasmine, and Cucumber
