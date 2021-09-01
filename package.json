@@ -6,6 +6,7 @@
   "devDependencies": {
     "@wdio/appium-service": "^7.10.1",
     "@wdio/mocha-framework": "^7.10.1",
-    "@wdio/spec-reporter": "^7.10.1"
+    "@wdio/spec-reporter": "^7.10.1",
+    "prettier": "2.3.2"
   }
 }
