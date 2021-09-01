@@ -1,5 +1,8 @@
 ## Webdriver.io Android
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
+
 This project shows how to test [Android](https://www.android.com/) applications using [Webdriver.io](https://webdriver.io/) and [Mocha Framework](https://mochajs.org/)
 
 #### Requirements
@@ -8,6 +11,12 @@ This project shows how to test [Android](https://www.android.com/) applications 
 - [Appium Server](https://appium.io/) version: `1.21.0`
 
 **Note:** I recommed to use [NVM](https://github.com/nvm-sh/nvm) to manage NodeJS versions
+
+#### To format the project
+
+```bash
+npx prettier --write .
+```
 
 #### To build the project
 
