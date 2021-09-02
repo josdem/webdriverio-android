@@ -2,7 +2,6 @@
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-
 This project shows how to test [Android](https://www.android.com/) applications using [Webdriver.io](https://webdriver.io/) and [Mocha Framework](https://mochajs.org/)
 
 #### Requirements
@@ -24,16 +23,30 @@ npx prettier --write .
 npm install
 ```
 
-#### To run the project
+#### To run the project locally
 
-```bash
-npx wdio run wdio.conf.js
-```
-
-And run Appium server:
+Run Appium server:
 
 ```bash
 appium
+```
+
+And
+
+```bash
+npx wdio run test/configs/wdio.local.conf.js
+```
+
+#### To run the project in [SauceLabs](https://saucelabs.com/)
+
+```bash
+export SAUCE_USERNAME=${YOUR_SAUCE_USERNAME}
+export SAUCE_ACCESS_KEY=${YOUR_SAUCE_KEY}
+export SAUCE_URL=${YOUR_SAUCE_URL}
+```
+
+```bash
+npx wdio run test/configs/wdio.sauce.conf.js
 ```
 
 #### Read this as reference
