@@ -1,6 +1,8 @@
 const {config} = require('../../wdio.conf')
 
 config.baseUrl = "http://localhost"
+config.port = 4723
+config.services = ['appium']
 
 config.capabilities = [
     {
