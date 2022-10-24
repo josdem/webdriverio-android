@@ -6,8 +6,8 @@ config.services = ["appium"]
 
 config.capabilities = [
   {
-    deviceName: "Pixel_5_30",
-    platformVersion: "11",
+    deviceName: "Pixel_6_33",
+    platformVersion: "13",
     platformName: "Android",
     app: "/home/josdem/Applications/app-debug.apk",
   },
