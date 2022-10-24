@@ -8,6 +8,6 @@
     "@wdio/mocha-framework": "^7.25.2",
     "@wdio/sauce-service": "^7.11.1",
     "@wdio/spec-reporter": "^7.25.1",
-    "prettier": "2.3.2"
+    "prettier": "2.7.1"
   }
 }
