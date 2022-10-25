@@ -47,6 +47,10 @@ where:
 
 - `${apiKey}` Is your Applitools api key
 
+```bash
+npx wdio run test/configs/wdio.applitools.conf.js --spec=test/specs/launcher.applitools.spec.js
+```
+
 #### To run the project in [SauceLabs](https://saucelabs.com/)
 
 ```bash
