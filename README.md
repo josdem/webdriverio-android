@@ -37,6 +37,16 @@ And
 npx wdio run test/configs/wdio.local.conf.js
 ```
 
+#### To run the project in [Applitools](https://applitools.com/)
+
+```bash
+export APPLITOOLS_API_KEY=${apiKey}
+```
+
+where:
+
+- `${apiKey}` Is your Applitools api key
+
 #### To run the project in [SauceLabs](https://saucelabs.com/)
 
 ```bash

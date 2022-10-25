@@ -16,7 +16,7 @@ describe("Should validate launcher", () => {
         app: "https://github.com/josdem/android-launcher/releases/download/v1.1/app-debug.apk",
       }
     driver = new wd.Builder().usingServer("http://localhost:4723/wd/hub").withCapabilities(desiredCaps).build()
-    eyes.setApiKey("smYuFI8hKgMn40NwDK2bZSzUWVNdJT22mGvDIg1052vUw110")
+    eyes.setApiKey(process.env.APPLITOOLS_API_KEY)
     await eyes.open(driver, "Launcher", "Validate launch screen")
   })
 
