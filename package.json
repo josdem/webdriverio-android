@@ -10,6 +10,7 @@
     "@wdio/sauce-service": "^7.11.1",
     "@wdio/spec-reporter": "^7.25.1",
     "eyes.selenium": "^3.9.1",
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "selenium-webdriver": "^3.6.0"
   }
 }
