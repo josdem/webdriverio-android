@@ -6,7 +6,7 @@ config.services = ["appium"]
 
 config.capabilities = [
   {
-    deviceName: "Pixel_6_33",
+    deviceName: "Pixel_6_API_33",
     platformVersion: "13",
     platformName: "Android",
     app: "https://github.com/josdem/android-launcher/releases/download/v1.1/app-debug.apk",
