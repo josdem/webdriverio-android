@@ -1,4 +1,4 @@
-const { Eyes, RunnerOptions, BatchInfo, VisualGridRunner, AndroidDeviceInfo } = require("@applitools/eyes-webdriverio")
+const { Eyes, RunnerOptions, BatchInfo, VisualGridRunner, AndroidDeviceInfo, AndroidDeviceName } = require("@applitools/eyes-webdriverio")
 
 let eyes
 let runner
