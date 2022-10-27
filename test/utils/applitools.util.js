@@ -1,4 +1,4 @@
-const { Eyes, RunnerOptions, BatchInfo, VisualGridRunner, AndroidDeviceInfo, AndroidDeviceName } = require("@applitools/eyes-webdriverio")
+const { Eyes, RunnerOptions, BatchInfo, VisualGridRunner, ScreenOrientation, AndroidDeviceName } = require("@applitools/eyes-webdriverio")
 
 let eyes
 let runner
@@ -10,7 +10,7 @@ const setUpConfiguration = async (batchName) => {
   eyes = new Eyes(runner)
 
   configuration = eyes.getConfiguration()
-  configuration.addMobileDevice(new AndroidDeviceInfo(AndroidDeviceName.Pixel_4))
+  configuration.addMobileDevice(AndroidDeviceName.Pixel_4, ScreenOrientation.PORTRAIT)
   configuration.setBatch(new BatchInfo(batchName))
   eyes.setApiKey(process.env.APPLITOOLS_API_KEY)
 }
