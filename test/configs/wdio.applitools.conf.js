@@ -9,7 +9,7 @@ config.capabilities = [
     deviceName: "Pixel_6_API_33",
     platformVersion: "13",
     platformName: "Android",
-    app: "https://github.com/josdem/android-launcher/releases/download/v1.1/app-debug.apk",
+    app: "https://github.com/josdem/android-launcher/releases/download/v1.2/app-debug.apk",
   },
 ]
 
