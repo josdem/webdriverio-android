@@ -6,10 +6,13 @@ config.services = ["appium"]
 
 config.capabilities = [
   {
-    deviceName: "Pixel_6_API_33",
-    platformVersion: "13",
-    platformName: "Android",
-    app: "https://github.com/josdem/android-launcher/releases/download/v1.6/app-debug.apk",
+    "platformName": "Android",
+    "appium:options": {
+      automationName: "UiAutomator2",
+      deviceName: "Pixel_6_API_33",
+      platformVersion: "13",
+      app: "https://github.com/josdem/android-launcher/releases/download/v1.6/app-debug.apk",
+    }
   },
 ]
 
