@@ -8,10 +8,18 @@ config.services = ["sauce"]
 
 config.capabilities = [
   {
-    deviceName: "Google Pixel 3 GoogleAPI Emulator",
-    platformVersion: "10.0",
-    platformName: "Android",
-    app: "https://github.com/josdem/android-launcher/releases/download/v1.1/app-debug.apk",
+    "platformName": "Android",
+    "appium:options": {
+      automationName: "UiAutomator2",
+      deviceName: "Android GoogleAPI Emulator",
+      platformVersion: "13.0",
+      app: "https://github.com/josdem/android-launcher/releases/download/v1.6/app-debug.apk",
+    },
+    "sauce:options": {
+      appiumVersion: '2.0.0',
+      build: '100',
+      name: 'launcher test',
+    },
   },
 ]
 
