@@ -6,8 +6,8 @@ This project shows how to test [Android](https://www.android.com/) applications 
 
 #### Requirements
 
-- [NodeJS](https://nodejs.org/en/) version: `16.10.0`
-- [Appium Server](https://appium.io/) version: `1.22.0`
+- [NodeJS](https://nodejs.org/en/) version: `18.16.1`
+- [Appium Server](https://appium.io/) version: `2.2.1`
 
 **Note:** I recommed to use [NVM](https://github.com/nvm-sh/nvm) to manage NodeJS versions
 
