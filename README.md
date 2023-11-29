@@ -6,8 +6,8 @@ This project shows how to test [Android](https://www.android.com/) applications 
 
 #### Requirements
 
-- [NodeJS](https://nodejs.org/en/) version: `18.16.1`
-- [Appium Server](https://appium.io/) version: `2.2.1`
+- [NodeJS](https://nodejs.org/en/) version: `20.10.0`
+- [Appium Server](https://appium.io/) version: `2.2.2`
 
 **Note:** I recommed to use [NVM](https://github.com/nvm-sh/nvm) to manage NodeJS versions
 
@@ -28,13 +28,13 @@ npm install
 Run Appium server:
 
 ```bash
-appium
+appium --base-path=/wd/hub/
 ```
 
 And
 
 ```bash
-npx wdio run test/configs/wdio.local.conf.js
+npx wdio run test/configs/wdio.local.conf.js --spec=test/specs/launcher.spec.js
 ```
 
 #### To run the project in [Applitools](https://applitools.com/)
