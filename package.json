@@ -6,9 +6,9 @@
   "devDependencies": {
     "@applitools/eyes-webdriverio": "^5.50.0",
     "@wdio/appium-service": "^8.24.0",
-    "@wdio/mocha-framework": "^7.26.0",
+    "@wdio/mocha-framework": "^8.24.3",
     "@wdio/sauce-service": "^8.24.3",
-    "@wdio/spec-reporter": "^7.26.0",
-    "prettier": "2.7.1"
+    "@wdio/spec-reporter": "^8.24.2",
+    "prettier": "3.1.0"
   }
 }
