@@ -28,7 +28,7 @@ npm install
 Run Appium server:
 
 ```bash
-appium
+appium --base-path=/wd/hub/
 ```
 
 And
