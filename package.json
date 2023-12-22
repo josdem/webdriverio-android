@@ -9,6 +9,7 @@
     "@wdio/mocha-framework": "^8.27.0",
     "@wdio/sauce-service": "^8.27.0",
     "@wdio/spec-reporter": "^8.27.0",
+    "appium": "^2.2.2",
     "prettier": "3.1.1"
   }
 }
